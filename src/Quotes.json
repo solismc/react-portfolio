@@ -1,0 +1,35 @@
+{
+"ListOfQuotes":{
+
+    "data":[
+   {   "id":"1",
+        "Quote":"If you think you can or think you can't, either way you are right.",
+        "Author":"Henry Ford"
+    },
+    {
+        "id":"2",
+        "Quote":"What got you here won't get you there.",
+        "Author":"Unknown"
+    },    
+    {
+        "id":"3",
+        "Quote":"If you are the smartest person in the room, you are in the wrong room.",
+        "Author":"Unknown"
+    },
+    {
+        "id":"4",
+        "Quote":"Growth begins at the end of your comfort zone.",
+        "Author":"Neale Donald Walsch"
+    },
+    {
+        "id":"5",
+        "Quote":"Take criticism gracefully, even when you disagree with it. If nothing else, you're learning something valuable about how someone else sees you.",
+        "Author":"Allison Green"
+    },
+    {
+        "id":"6",
+        "Quote":"The only thing I regret about my past is the length of it. If I had to live my life again, I'd make the same mistakes, only sooner.",
+        "Author":"Tallulah Bankhead"  
+    }
+]
+}}
