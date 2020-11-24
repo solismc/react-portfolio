@@ -24,12 +24,12 @@ function App() {
     <section class="hero-unit">
       <section class="bubble-box">
         <h1 class="text-center">Manuel Solis PSM, PSPO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
-        <h2 id="description-rotate"></h2>
+        <h2 class="text-center">Project Manager&nbsp;&nbsp;&nbsp;&nbsp;</h2>
       <img class="headshot" src="images/Manuel-Headshot.jpeg" alt="Manuel Solis" width="200" height="200"/>
       <section>
       <blockquote class="blockquote text-muted text-right">
         <h2>&nbsp;</h2>
-        <h3> "If you think you can or you can't, either way you are right"<footer class="blockquote-footer"></footer></h3>
+        <h3> "If you think you can or you can't, either way you are right"</h3>
         <cite title="Henry Ford">Henry Ford</cite>
         </blockquote>
         </section>

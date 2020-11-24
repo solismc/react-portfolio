@@ -144,6 +144,10 @@ body {
   padding-top: 20px;
 }
 
+.blockqoute {
+  padding-right:50px;
+}
+
 .rotate-text {
   display: flex;
   justify-content: space-evenly;
