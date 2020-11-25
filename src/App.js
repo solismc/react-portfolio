@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <nav class="navbar navbar-expand-sm bg-light">
+    <nav class="navbar navbar-expand-sm bg-light">
         <ul class="navbar-nav" >
           <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
@@ -20,7 +20,7 @@ function App() {
             </li>
         </ul>
       </nav>
-  <section >
+    <section >
     <section class="hero-unit">
       <section class="bubble-box">
         <h1 class="text-center">Manuel Solis PSM, PSPO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
@@ -50,9 +50,9 @@ function App() {
       </section>
     </section>
       <section class="section-header-react">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo"/>
       </section>
-    </div>
+  </div>
   );
 }
 
