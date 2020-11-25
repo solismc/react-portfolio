@@ -5,22 +5,23 @@ function App() {
   return (
     <div className="App">
     <nav class="navbar navbar-expand-sm bg-light">
-        <ul class="navbar-nav" >
+      <ul class="navbar-nav" >
+        <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
           <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href="aboutme.html">About</a>
           </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutme.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contactme.html">Contact</a>
-            </li>
-        </ul>
-      </nav>
-    <section >
+          <li class="nav-item">
+            <a class="nav-link" href="contactme.html">Contact</a>
+          </li>
+      </ul>
+    </nav>
+    <section>
+    <section>
     <section class="hero-unit">
       <section class="bubble-box">
         <h1 class="text-center">Manuel Solis PSM, PSPO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
@@ -33,6 +34,7 @@ function App() {
         <cite title="Henry Ford">Henry Ford</cite>
         </blockquote>
         </section>
+    </section>
     </section>
     </section>
     </section>
