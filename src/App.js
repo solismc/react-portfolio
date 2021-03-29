@@ -1,4 +1,12 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {Router, Link, Switch, Route } from "react-router-dom";
+import React, { Component } from "react";
+import HomePage from "./components/HomePage";
+import Instructions from "./components/Instructions.js";
+import Questions from "./components/Questions.js";
+import CaptureForm from "./components/CaptureForm.js";
+import Results from "./components/Results.js";
+import history from './components/History';
 import logo from './logo.svg';
 import './App.css';
 
@@ -77,6 +85,7 @@ class App extends Component {
               <Route path="/contact" exact component={Contact} />
             </Switch>
           </div>
+  </Router>          
   );
 }
 
