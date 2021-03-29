@@ -2,25 +2,35 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
+class App extends Component {
+  render() {
+    console.log(process.env)
+    return (
+      <Router history={history}>
     <div className="App">
-    <nav class="navbar navbar-expand-sm bg-light">
-      <ul class="navbar-nav" >
-        <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-        </li> 
-        <li class="nav-item">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactme.html">Contact</a>
-          </li>
-      </ul>
-    </nav>
+        <nav class="navbar navbar-expand-sm bg-light">
+          <ul className="ul-list">
+            <li>
+              <Link to="/"></Link>
+            </li>
+            <li>
+              <Link to="/brand"></Link>
+            </li>
+            <li>
+              <Link to="/leadership"></Link>
+            </li>
+            <li>
+              <Link to="/code"></Link>
+            </li>
+            <li>
+                <Link to="/aboutme"></Link>
+            </li>
+            <li>
+                <Link to="/contact"></Link>
+            </li>
+          </ul>
+        </nav>
+
     <section>
     <section>
     <section class="hero-unit">
@@ -56,6 +66,17 @@ function App() {
       <img src={logo} className="App-logo" alt="logo"/>
       </section>
   </div>
+
+  <div>
+            <Switch>
+              <Route path="/" exact component={HomePage} />
+              <Route path="/brand" exact component={Brand} />
+              <Route path="/leadership" exact component={Leadership} />
+              <Route path="/code" exact component={Code} />
+              <Route path="/aboutme" exact component={AboutMe} />
+              <Route path="/contact" exact component={Contact} />
+            </Switch>
+          </div>
   );
 }
 
