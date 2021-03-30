@@ -6,7 +6,8 @@ import "./App.css";
 class HomePage extends Component {
   render() {
     return (
-<div>        
+
+<div>       
 <section>
     <section>
     <section class="hero-unit">
@@ -42,10 +43,10 @@ class HomePage extends Component {
       <img src={logo} className="App-logo" alt="logo"/>
       </section>
   </div>
-
-
         );
     }
   }
   
-  export default HomePage;      
+  export default HomePage;
+  
+  

@@ -1,6 +1,7 @@
 {
-    "beautify.config": "",
+    "beautify.config": "string|Object.<string,string|number|boolean>",
     "beautify.language": {
+
         "js": {
             "type": [
                 "javascript",
@@ -20,5 +21,6 @@
         "html": [
             "html"
         ]
-    }
+    },
+    "editor.codeActionsOnSave": null
 }
